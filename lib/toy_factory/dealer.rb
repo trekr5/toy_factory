@@ -1,6 +1,6 @@
 module ToyFactory
   class Dealer
-      attr_reader :order
+      attr_accessor :order
 
       def initialize(order)
           @order = order
